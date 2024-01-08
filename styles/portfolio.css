@@ -175,7 +175,23 @@ main section{
     display: flex;
 }
 
-/* .resume-container{ */
-    display: flex;
-    gap: 300px;
+.resume-item-description, .resume-item-institute{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
